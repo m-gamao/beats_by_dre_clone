@@ -1,0 +1,9 @@
+/* I'm putting the parent div on the same line as the child div here */
+div.beats_logo_wrapper div.image {
+    width: 50px;
+}
+
+/* Parent and child divs.  */
+div.beats_logo_wrapper div.image img {
+    width: 100%;
+}

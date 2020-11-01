@@ -1,0 +1,13 @@
+/* Add margin to the <li>'s to create a space between them. It 'self-centers' because it is
+being flexed with two other elements in the the header  */
+nav.navbar_wrapper ul {
+    display: flex;
+    width: 430px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+nav.navbar_wrapper ul li {
+    justify-self: center;
+    font-size: 1.3rem;
+}

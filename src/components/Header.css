@@ -1,0 +1,10 @@
+/* The "display" property, with value "flex", will push the elements side by side w respect to each other */
+/* "justify-content" property, with "space-between" value, will create a space between the elements */
+/* "align-items", "center", will center the items vertically */
+/* "border": adds a line around the element */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 65px 0 65px;
+}
