@@ -3,7 +3,7 @@ import React from 'react'
 const Search = () => {
     return (
         <div className="search_icon">
-            <i class="fas fa-search"></i>
+            <i className="fas fa-search"></i>
         </div>
     )
 }
